@@ -4,32 +4,32 @@
     "description": "Progress web app for tracking year completion",
     "icons": [
         {
-            "src": "/icons/icon-32.png",
+            "src": "dots/icons/icon-32.png",
             "sizes": "32x32",
             "type": "image/png"
         },
         {
-            "src": "/icons/icon-64.png",
+            "src": "dots/icons/icon-64.png",
             "sizes": "64x64",
             "type": "image/png"
         },
         {
-            "src": "/icons/icon-96.png",
+            "src": "dots/icons/icon-96.png",
             "sizes": "96x96",
             "type": "image/png"
         },
         {
-            "src": "/icons/icon-128.png",
+            "src": "dots/icons/icon-128.png",
             "sizes": "128x128",
             "type": "image/png"
         },
         {
-            "src": "/icons/icon-256.png",
+            "src": "dots/icons/icon-256.png",
             "sizes": "256x256",
             "type": "image/png"
         },
         {
-            "src": "/icons/icon-512.png",
+            "src": "dots/icons/icon-512.png",
             "sizes": "512x512",
             "type": "image/png"
         }
