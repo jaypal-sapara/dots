@@ -34,8 +34,8 @@
             "type": "image/png"
         }
     ],
-    "start_url": "dots/index.html",
-    "display": "fullscreen",
+    "start_url": "/index.html",
+    "display": "standalone",
     "theme_color": "#018181b",
     "background_color": "#18181b"
 }
