@@ -1,0 +1,41 @@
+{
+    "name": "Dots year progress",
+    "short_name": "Dots",
+    "description": "Progress web app for tracking year completion",
+    "icons": [
+        {
+            "src": "/dots/icons/icon-32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "/dots/icons/icon-64.png",
+            "sizes": "64x64",
+            "type": "image/png"
+        },
+        {
+            "src": "/dots/icons/icon-96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/dots/icons/icon-128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "/dots/icons/icon-256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/dots/icons/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/dots/index.html",
+    "display": "standalone",
+    "theme_color": "#018181b",
+    "background_color": "#18181b"
+}
