@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="/dots/icons/icon-32.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="manifest" href="/dots/assets/dots-C3IxkKiz.webmanifest" />
+  <title>Dots | Track your year completion</title>
+  <!-- Script -->
+  <script>
+    // prevent theme change stutter on first time load
+    if (!localStorage.getItem('theme') && window.matchMedia("(prefers-color-scheme: dark)")) {
+      document.querySelector('html').setAttribute('class', 'dark')
+      localStorage.setItem('theme', 'dark')
+    } else {
+      document.querySelector('html').setAttribute('class', localStorage.getItem('theme') || 'light')
+    }
+  </script>
+  <script type="module" crossorigin src="/dots/assets/index-Bf2PHzZC.js"></script>
+  <link rel="stylesheet" crossorigin href="/dots/assets/index-DVpEhR-0.css">
+</head>
+
+<body class="antialiased font-body text-sm">
+  <div id="root"></div>
+</body>
+
+</html>
