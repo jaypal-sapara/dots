@@ -13,14 +13,14 @@
   <!-- Script -->
   <script>
     // prevent theme change stutter on first time load
-    if (!localStorage.getItem('theme') && window.matchMedia("(prefers-color-scheme: dark)")) {
+    if (!localStorage.getItem('dots-theme') && window.matchMedia("(prefers-color-scheme: dark)")) {
       document.querySelector('html').setAttribute('class', 'dark')
-      localStorage.setItem('theme', 'dark')
+      localStorage.setItem('dots-theme', 'dark')
     } else {
-      document.querySelector('html').setAttribute('class', localStorage.getItem('theme') || 'light')
+      document.querySelector('html').setAttribute('class', localStorage.getItem('dots-theme') || 'light')
     }
   </script>
-  <script type="module" crossorigin src="/dots/assets/index-Bf2PHzZC.js"></script>
+  <script type="module" crossorigin src="/dots/assets/index-BX6omDpm.js"></script>
   <link rel="stylesheet" crossorigin href="/dots/assets/index-DVpEhR-0.css">
 </head>
 
