@@ -34,7 +34,7 @@
             "type": "image/png"
         }
     ],
-    "start_url": "/dots/index.html",
+    "start_url": "/dots/",
     "display": "standalone",
     "background_color": "rgb(24 24 27)",
     "theme_color": "rgb(24 24 27)"
